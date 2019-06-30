@@ -1,0 +1,55 @@
+title = "Vaulttec"
+baseURL = "http://vaulttec.org"
+theme = "minimal"
+languageCode = "en-us"
+disablePathToLower = true
+disqusShortname = "vaulttec"
+googleAnalytics = ""
+
+[params]
+    author = "Torsten Juergeleit"
+    description = "A blog about developing software."
+    githubUsername = "vaulttec"
+    copyright = "&copy; Torsten Jürgeleit. Powered by [Hugo](https://gohugo.io) and [Minimal](https://github.com/calintat/minimal)"
+    #accent = "blue"
+    showBorder = false
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+    profilePic = "/images/vaulttec_logo.png"
+    highlight = true
+    highlightStyle = "solarized-dark"
+    highlightLanguages = ["java"]
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/post/"
+    name = "Posts"
+    weight = 2
+
+[[menu.main]]
+    url = "/project/"
+    name = "Projects"
+    weight = 3
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "mailto:torsten.juergeleit@gmail.com"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/vaulttec/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/torstenjuergeleit/"
+    name = "linkedin"
+    weight = 3
