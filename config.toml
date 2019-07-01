@@ -1,5 +1,5 @@
 title = "Vaulttec"
-baseURL = "http://vaulttec.org"
+baseURL = "http://vaulttec.org/"
 theme = "minimal"
 languageCode = "en-us"
 disablePathToLower = true
