@@ -4,7 +4,7 @@ theme = "minimal"
 languageCode = "en-us"
 disablePathToLower = true
 disqusShortname = "vaulttec"
-googleAnalytics = ""
+GoogleAnalytics = "UA-65908393-1"
 
 [params]
     author = "Torsten Juergeleit"
